@@ -13,12 +13,42 @@ A comprehensive management system for a surf camp hostel. This project aims to s
 - **Reporting:** Provide insights into occupancy rates, revenue, and other key metrics.
 
 ## Technologies Used
-- **Backend:** Python (Django/Flask - to be decided)
-- **Frontend:** JavaScript (React/Vue.js - to be decided)
+- **Backend:** Java (Spring Boot 3.2.5)
+- **Frontend:** JavaScript (React)
 - **Database:** PostgreSQL/MySQL (to be decided)
 
 ## Getting Started
-Detailed instructions on how to set up and run the project will be added here once the initial development phase is complete.
+
+### Prerequisites
+- Java 17 or later
+- Maven
+- Node.js and npm
+
+### Backend (Spring Boot)
+1. Navigate to the `backend` directory:
+   ```bash
+   cd backend
+   ```
+2. Run the application:
+   ```bash
+   ./mvnw spring-boot:run
+   ```
+   The backend will typically start on port 8080.
+
+### Frontend (React)
+1. Navigate to the `frontend` directory:
+   ```bash
+   cd frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+   The frontend will typically open in your browser at http://localhost:3000.
 
 ## Contributing
 We welcome contributions! Please follow these steps:
